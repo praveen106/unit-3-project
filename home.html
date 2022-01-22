@@ -1,0 +1,1856 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Buy Beauty Product Online shopping, Cosmetics Online shopping - Beauty
+      Bebo
+    </title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/home.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="header_top">
+        <img
+          class="header_img"
+          src="https://www.beautybebo.com/pub/media/bb-app.png"
+        />
+      </div>
+      <div>
+        <p class="header_covid">
+          Due to Covid outbreak, Your orders may get delayed.
+        </p>
+      </div>
+      <div class="header_middle">
+        <div class="header_middle_innerbox">
+          <div id="header_middle_innerbox_first">
+            <span
+              ><img
+                class="header_middle_img"
+                src="https://www.beautybebo.com/pub/media/mega-menu/imgpsh_fullsize_anim_12_.jpg"
+            /></span>
+          </div>
+          <div id="header_middle_innerbox_second">
+            <select id="category_list">
+              <option>All Categories</option>
+            </select>
+
+            <input
+              type="text"
+              placeholder=" Enter your search...."
+              id="searchbar"
+              class="search_focus"
+              value=""
+            />
+
+            <button
+              class="search-button"
+              id="search-btn"
+              type="submit"
+              title="Search"
+            >
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
+                class="search_icon"
+              />
+            </button>
+          </div>
+          <div id="header_middle_innerbox_third">
+            <div class="favourite">
+              <span class="material-icons-outlined"> favorite </span>
+            </div>
+            <div class="account">
+              <span class="material-icons-round"> person </span>
+            </div>
+            <div class="account_info">
+              <span class="hov"
+                ><span id="reg" onclick="menuToggle()"> My Account </span>
+                <div class="menu">
+                  <p><a href="sigin.html">Login</a></p>
+                  <hr />
+                  <p><a href="signup.html">Register</a></p>
+                </div>
+                <div class="updated_menu">
+                  <p><a href="home.html">My Account</a></p>
+                  <hr />
+                  <p><a href="cart.html">My Orders</a></p>
+                  <hr />
+                  <p><a href="wish.html"> Wishlist</a></p>
+                  <hr />
+                  <p><a href="address.html">Address Book</a></p>
+                  <hr />
+                  <p><a onclick="signout()">Logout </a></p>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="menu_bar">
+          <ul>
+            <li
+              class="active"
+              onmouseenter="navToggle()"
+              onmouseleave="navTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    ><a href="search_products.html">MAKEUP</a>
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">FACE</li>
+                          <li>BB Cream</li>
+                          <li>Blush</li>
+                          <li>Bronzer</li>
+                          <li>CC Cream</li>
+                          <li>Contour</li>
+                          <li>Concealer</li>
+                          <li>Compact & Powder</li>
+                          <li>Face Primer</li>
+                          <li>Foundation</li>
+                          <li>Highlighters</li>
+                          <li>Loose Powder</li>
+                          <li>Makeup Kits</li>
+                          <li>Makeup Remover</li>
+                          <li>Setting Spray</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">EYE</li>
+                          <li>Contact Lenses</li>
+                          <li>Eye Kit</li>
+                          <li>Eyeliner</li>
+                          <li>Eye Shadow</li>
+                          <li>Eye Primer</li>
+                          <li>Eye-Palettes</li>
+                          <li>Eye Makeup Remover</li>
+                          <li>Eye Brow Enhancers</li>
+                          <li>False Eyelashes</li>
+                          <li>Kajal</li>
+                          <li>Mascara</li>
+                          <li>Under Eye Concealer</li>
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">LIPS</li>
+                          <li>Lipstick</li>
+                          <li>Liquid Lipstick</li>
+                          <li>Lip Liner</li>
+                          <li>Lip Gloss</li>
+                          <li>Lip Balm</li>
+                          <li>Lip Crayon</li>
+                          <li>Lip Stain</li>
+                          <li>Lip Plumper</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">NAILS</li>
+                          <li>Manicure & Pedicure Kits</li>
+                          <li>Nail Polish</li>
+                          <li>Nail Care</li>
+                          <li>Nail Polish Sets</li>
+                          <li>Nail Art Kits</li>
+                          <li>Nail Polish Remover</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">TOOLS BRUSHES</li>
+                          <li>Blush Brush</li>
+                          <li>Eyelash Curlers</li>
+                          <li>Eye Brush</li>
+                          <li>Face Brush</li>
+                          <li>Lip Brush</li>
+                          <li>Makeup Pouches</li>
+                          <li>Mirrors</li>
+                          <li>Sponges & Applicators</li>
+                          <li>Sharpeners</li>
+                          <li>Tweezers</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box"></div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navSkinToggle()"
+              onmouseleave="navSkinTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >SKIN
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_skin">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">EYE CARE</li>
+                          <li>Dark Circles</li>
+                          <li>Eye Contour Care</li>
+                          <li>Eye Cream</li>
+                          <li>Eye Masks</li>
+                          <li>Eye Serums</li>
+                          <li>Puffiness</li>
+                          <li>Under Eye Creams</li>
+                          <li>Under Eye Wrinkles</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">FACE CARE</li>
+                          <li>Anti- Ageing Creams</li>
+                          <li>Bleach Creams</li>
+                          <li>Brightening Cream</li>
+                          <li>Face Wash</li>
+                          <li>Facial Wipes</li>
+                          <li>Face Oil</li>
+                          <li>Face Cleansers</li>
+                          <li>Facial Kits</li>
+                          <li>Face Tools</li>
+                          <li>Moisturizer</li>
+                          <li>Mask & Peels</li>
+                          <li>Serum</li>
+                          <li>Toner & Astringents</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">BODY CARE</li>
+                          <li>All Cream</li>
+                          <li>Body Moisturizers</li>
+                          <li>Body Toners</li>
+                          <li>Body Sun Care</li>
+                          <li>Brightening Lotion</li>
+                          <li>Dark Circles & Wrinkles</li>
+                          <li>Day Cream</li>
+                          <li>Foot Cream</li>
+                          <li>Hair Remover Cream</li>
+                          <li>Hand Creams</li>
+                          <li>Hands & Feet</li>
+                          <li>Kits & Combos</li>
+                          <li>Night Cream</li>
+                          <li>Neck Creams</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_10_.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navHairToggle()"
+              onmouseleave="navHairTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >HAIR
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_hair">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR CARE</li>
+                          <li>Color Protection</li>
+                          <li>Dandruff</li>
+                          <li>Dry Shampoo</li>
+                          <li>Gels & Waxes</li>
+                          <li>Hair Spray</li>
+                          <li>Hair Color/ Dye</li>
+                          <li>Hair Creams & Masks</li>
+                          <li>Hair Styling</li>
+                          <li>Hairfall & Thinning</li>
+                          <li>Straighteners</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR LOSS</li>
+                          <li>Conditioner</li>
+                          <li>Hair Oil</li>
+                          <li>Hair Serum</li>
+                          <li>Hair Growth Solutions</li>
+                          <li>Shampoo</li>
+                        </ul>
+                      </div>
+
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_9_.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navPersonalCareToggle()"
+              onmouseleave="navPersonalCareTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >PERSONAL CARE
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_personal_care">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">EYE CARE</li>
+                          <li>Dark Circles</li>
+                          <li>Eye Contour Care</li>
+                          <li>Eye Cream</li>
+                          <li>Eye Masks</li>
+                          <li>Eye Serums</li>
+                          <li>Puffiness</li>
+                          <li>Under Eye Creams</li>
+                          <li>Under Eye Wrinkles</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">FACE CARE</li>
+                          <li>Anti- Ageing Creams</li>
+                          <li>Bleach Creams</li>
+                          <li>Brightening Cream</li>
+                          <li>Face Wash</li>
+                          <li>Facial Wipes</li>
+                          <li>Face Oil</li>
+                          <li>Face Cleansers</li>
+                          <li>Facial Kits</li>
+                          <li>Face Tools</li>
+                          <li>Moisturizer</li>
+                          <li>Mask & Peels</li>
+                          <li>Serum</li>
+                          <li>Toner & Astringents</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">BODY CARE</li>
+                          <li>All Cream</li>
+                          <li>Body Moisturizers</li>
+                          <li>Body Toners</li>
+                          <li>Body Sun Care</li>
+                          <li>Brightening Lotion</li>
+                          <li>Dark Circles & Wrinkles</li>
+                          <li>Day Cream</li>
+                          <li>Foot Cream</li>
+                          <li>Hair Remover Cream</li>
+                          <li>Hand Creams</li>
+                          <li>Hands & Feet</li>
+                          <li>Kits & Combos</li>
+                          <li>Night Cream</li>
+                          <li>Neck Creams</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_10_.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li onmouseenter="navMomToggle()" onmouseleave="navMomTogglenot()">
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >MOM & BABY CARE
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_mom">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR CARE</li>
+                          <li>Color Protection</li>
+                          <li>Dandruff</li>
+                          <li>Dry Shampoo</li>
+                          <li>Gels & Waxes</li>
+                          <li>Hair Spray</li>
+                          <li>Hair Color/ Dye</li>
+                          <li>Hair Creams & Masks</li>
+                          <li>Hair Styling</li>
+                          <li>Hairfall & Thinning</li>
+                          <li>Straighteners</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR LOSS</li>
+                          <li>Conditioner</li>
+                          <li>Hair Oil</li>
+                          <li>Hair Serum</li>
+                          <li>Hair Growth Solutions</li>
+                          <li>Shampoo</li>
+                        </ul>
+                      </div>
+
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/imgpsh_fullsize_anim_11_.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navFragranceToggle()"
+              onmouseleave="navFragranceTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >FRAGRANCE
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_fragrance">
+                  <p>Perfumes</p>
+                  <p>Deodorants roll ons</p>
+                  <p>Body Mist/Spray</p>
+                </div>
+              </span>
+            </li>
+
+            <li
+              onmouseenter="navAyurvedaToggle()"
+              onmouseleave="navAyuevedaTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >AYURVEDA
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_Ayueveda">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR CARE</li>
+                          <li>Color Protection</li>
+                          <li>Dandruff</li>
+                          <li>Dry Shampoo</li>
+                          <li>Gels & Waxes</li>
+                          <li>Hair Spray</li>
+                          <li>Hair Color/ Dye</li>
+                          <li>Hair Creams & Masks</li>
+                          <li>Hair Styling</li>
+                          <li>Hairfall & Thinning</li>
+                          <li>Straighteners</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR LOSS</li>
+                          <li>Conditioner</li>
+                          <li>Hair Oil</li>
+                          <li>Hair Serum</li>
+                          <li>Hair Growth Solutions</li>
+                          <li>Shampoo</li>
+                        </ul>
+                      </div>
+
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/imgpsh_fullsize_anim_12_.jpg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li>
+              BRANDS<span class="material-icons-outlined expand">
+                expand_more
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="my_cart">
+          <ul class="active">
+            <li>
+              <a href="cart.html" style="outline: none"
+                ><span class="material-icons-outlined expand cart_expand">
+                  shopping_bag </span
+                >MY CART</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="main-content">
+      <div class="middle-container">
+        <div class="megamenu-content-sidebar">
+          <div class="block_title">
+            <ul>
+              <li>
+                <span class="material-icons-outlined"> menu </span>
+                <span>ALL CATEGORIES</span>
+              </li>
+            </ul>
+          </div>
+          <div class="block_des">
+            <div>
+              <ul>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/makeup-small.png"
+                  /></span>
+                  <div class="icon_text">Makeup</div>
+                  <span class="material-icons-outlined right_end">
+                    keyboard_arrow_right
+                  </span>
+                </li>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_8__1.jpg"
+                  /></span>
+                  <div class="icon_text">Skin</div>
+                  <span class="material-icons-outlined right_end">
+                    keyboard_arrow_right
+                  </span>
+                </li>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_9_.jpg"
+                  /></span>
+                  <div class="icon_text">Hair</div>
+                  <span class="material-icons-outlined right_end">
+                    keyboard_arrow_right
+                  </span>
+                </li>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_10_.jpg"
+                  /></span>
+                  <div class="icon_text">Personal Care</div>
+                  <span class="material-icons-outlined right_end">
+                    keyboard_arrow_right
+                  </span>
+                </li>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/wysiwyg/menu-icons/mom-baby-care-small.png"
+                  /></span>
+                  <div class="icon_text">Mom & Baby Care</div>
+                  <span class="material-icons-outlined right_end">
+                    keyboard_arrow_right
+                  </span>
+                </li>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/fragrance.png"
+                  /></span>
+                  <div class="icon_text">Fragrance</div>
+                </li>
+                <li>
+                  <span class="icon_items"
+                    ><img
+                      src="https://www.beautybebo.com/pub/media/ayurveda.png"
+                  /></span>
+                  <div class="icon_text">Ayurveda</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="home_slide_show"></div>
+      </div>
+      <div class="heaven_products">
+        <div class="heaven_products_img">
+          <img
+            src="https://www.beautybebo.com/pub/media/ads/blue_heaven_diwali.png"
+          />
+        </div>
+      </div>
+      <h5>NEW ARRIVALS!</h5>
+      <hr />
+      <div class="show_all_products">
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/2/12_34_8.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              Aroma Magic 5 In 1 Facial Kit Salon Range
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹1,250.00</span
+              ><span class="discount_price">₹1,150.00</span
+              ><span class="discount_avality">8% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/1/11_35.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">O3+ Shine & Glow Kit Single Use</p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹560.00</span
+              ><span class="discount_price">₹504.00</span
+              ><span class="discount_avality">8% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/4/14_16_8.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              Schwarzkopf Professional SPA Essence Enriching Cream Masque
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹660.00</span
+              ><span class="discount_price">₹627.00</span
+              ><span class="discount_avality">8% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/3/13_17_8.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              Schwarzkopf Professional Osis+ Magic Anti Frizz Shine Serum
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹950.00</span
+              ><span class="discount_price">₹880.00</span
+              ><span class="discount_avality">8% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="festival_season">
+        <div class="festival_season_img">
+          <img
+            src="https://www.beautybebo.com/pub/media/ads/home_page_dshra.png"
+          />
+        </div>
+      </div>
+      <div class="festival_season lotus_add">
+        <div>
+          <img src="https://www.beautybebo.com/pub/media/ads/HOME_LOTUS.png" />
+        </div>
+        <div>
+          <img src="https://www.beautybebo.com/pub/media/ads/beeonehome2.png" />
+        </div>
+      </div>
+      <div class="festival_season">
+        <div class="horizontal_list">
+          <ul>
+            <li class="active">
+              <span>
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/category/makeup_1.png"
+                />
+              </span>
+
+              <div>Makeup</div>
+            </li>
+            <li>
+              <img
+                src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_8__1.jpg"
+              />
+              <div>Skin</div>
+            </li>
+            <li>
+              <img
+                src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_10_.jpg"
+              />
+              <div>Hair</div>
+            </li>
+            <li>
+              <img
+                src="https://www.beautybebo.com/pub/media/ads/imgpsh_fullsize_anim_10_.jpg"
+              />
+              <div>Personal Care</div>
+            </li>
+            <li>
+              <img
+                src="https://www.beautybebo.com/pub/media/mega-menu/imgpsh_fullsize_anim_11_.jpg"
+              />
+              <div>Mom & Baby Care</div>
+            </li>
+            <li>
+              <img
+                src="https://www.beautybebo.com/pub/media/mega-menu/imgpsh_fullsize_anim_11_.jpg"
+              />
+
+              <div>Eye</div>
+            </li>
+            <li>
+              <img
+                src="https://www.beautybebo.com/pub/media/catalog/category/fragrance_3.png"
+              />
+              <div>Fragrance</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="show_all_products makeup_all_products">
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/_/3_126.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              Faces Canada UltimePro Twist Eye Kajal Liner
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹599.00</span
+              ><span class="discount_price">₹539.00</span
+              ><span class="discount_avality">10% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/5/_/5_91.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              Miss Claire Mineral Blusher Kit - 3716-4-04
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹375.00</span
+              ><span class="discount_price">₹338.00</span
+              ><span class="discount_avality">10% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/_/3_125_1.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              NYX Professional Makeup The Marshmellow Primer
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹1,500.00</span
+              ><span class="discount_price">₹1,425.00</span
+              ><span class="discount_avality">5% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="all_products">
+          <div class="products_box">
+            <div class="img_outer_box">
+              <div class="img_inner_box">
+                <img
+                  src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/_/1_210_13.jpg"
+                />
+              </div>
+            </div>
+            <p class="products_name">
+              Blue Heaven 12-In-1 Bling Eyeshadow Palette - Cocktail Fever -
+              (Pack Of 2)
+            </p>
+            <div class="rating_wraper">
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+              <input type="radio" name="rating" id="star1" /><label
+                for="star1"
+              ></label>
+            </div>
+            <p class="price_promo">
+              <span class="main_price">₹500.00</span
+              ><span class="discount_price">₹425.00</span
+              ><span class="discount_avality">15% off</span>
+            </p>
+            <div class="btn_order">
+              <div class="btn">
+                <button class="add_to_cart">
+                  <span class="material-icons-outlined"> card_giftcard </span>
+                  <span>Add To Cart</span>
+                </button>
+              </div>
+              <div class="icons_favor">
+                <div class="favourite new_favourite">
+                  <span class="material-icons-outlined add_favourite_img">
+                    favorite
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="festival_season">
+        <div class="festival_season_img">
+          <img src="https://www.beautybebo.com/pub/media/ads/1599.png" />
+        </div>
+      </div>
+      <div class="festival_season">
+        <div class="products_vertical_box">
+          <div>
+            <h5 class="products_box_name">BEST SELLER</h5>
+            <hr />
+            <div class="multiple_product_box">
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/p/o/ponds_super_light_gel_oil_free_moisturiser_with_hyaluronic_acid_vitamin_e2.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>
+                    Ponds Super Light Gel Oil Free Moisturiser With Hyaluronic
+                    Acid +
+                  </h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹660.00</span
+                    ><span class="discount_price">₹627.00</span
+                    ><span class="discount_avality">8% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/c/l/cl-08_strawberry_love-min_2.png"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>Blue Heaven Candy Matte Lip Color</h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹125.00</span
+                    ><span class="discount_price">₹103.00</span
+                    ><span class="discount_avality">18% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/d/s/dsfsdafsdfsd.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>Ponds Pimple Clear Face Wash - Pack Of 2</h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹520.00</span
+                    ><span class="discount_price">₹498.00</span
+                    ><span class="discount_avality">5% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5 class="products_box_name">LAST PRODUCTS</h5>
+            <hr id="last_products" />
+            <div class="multiple_product_box">
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/2/12_34_8.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>Aroma Magic 5 In 1 Facial Kit Salon Range</h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹1,250.00</span
+                    ><span class="discount_price">₹1,150.00</span
+                    ><span class="discount_avality">8% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/1/1/11_35.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>O3+ Shine & Glow Kit Single Use</h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹560.00</span
+                    ><span class="discount_price">₹504.00</span
+                    ><span class="discount_avality">8% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/3/_/3_126.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>Faces Canada UltimePro Twist Eye Kajal Liner</h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹599.00</span
+                    ><span class="discount_price">₹539.00</span
+                    ><span class="discount_avality">10% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5 class="products_box_name">MOST VIEWED</h5>
+            <hr id="last_products" />
+            <div class="multiple_product_box">
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/o/5/o5_1_1.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>
+                    O3+ Whitening Facial Kit With Brightening & Whitening Peel
+                    Off Mask
+                  </h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹599.00</span
+                    ><span class="discount_price">₹550.00</span
+                    ><span class="discount_avality">8% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/x/z/xzxzxzxzxz.jpeg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>
+                    Ponds White Beauty Anti Spot Fairness Day Cream SPF 15 PA++
+                  </h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹240.00</span
+                    ><span class="discount_price">₹216.00</span
+                    ><span class="discount_avality">10% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single_product_box">
+                <div class="product_img_box">
+                  <img
+                    src="https://www.beautybebo.com/pub/media/catalog/product/cache/37253e89591b79b38c00254331932999/m/m/mmm53_1.jpg"
+                  />
+                </div>
+                <div class="item_description">
+                  <h6>Mamaearth Pro-Growth Hair Tonic</h6>
+                  <div class="rating_wraper item_rating">
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                    <input type="radio" name="rating" id="star1" /><label
+                      for="star1"
+                    ></label>
+                  </div>
+                  <p class="price_promo promo_align">
+                    <span class="main_price">₹499.00</span
+                    ><span class="discount_price">₹425.00</span
+                    ><span class="discount_avality">15% off</span>
+                  </p>
+                  <div class="btn_order btn_item_order">
+                    <div class="btn">
+                      <button class="add_to_cart">
+                        <span class="material-icons-outlined">
+                          card_giftcard
+                        </span>
+                        <span>Add To Cart</span>
+                      </button>
+                    </div>
+                    <div class="icons_favor">
+                      <div class="favourite new_favourite">
+                        <span class="material-icons-outlined add_favourite_img">
+                          favorite
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="festival_season">
+        <div class="festival_season_img">
+          <img src="https://www.beautybebo.com/pub/media/ads/giftbanner.jpg" />
+        </div>
+      </div>
+      <div class="festival_season">
+        <h2 class="festival_season_img">
+          Welcome to Beauty Products Online Shopping India- Beauty Bebo
+        </h2>
+      </div>
+      <div class="festival_season text">
+        <p class="festival_season_img website_description">
+          If you are looking for a flawless radiant face outlook for a special
+          occasion, then we have the perfect tips for you. As you must already
+          know, the conspicuous flawless outlook you want for your wedding, a
+          date, a dinner party or for a modelling competition is only achieved
+          through makeup.
+        </p>
+        <p class="festival_season_img website_description">
+          Don’t get me wrong, you are naturally beautiful, that’s obvious. But
+          everyone else is, so how will you will you ensure that you are
+          different? Read on for hot irresistible tips before you
+          <span>buy beauty products online!</span>
+        </p>
+        <p class="festival_season_img website_description">
+          <span>Clean Your Face First!</span>
+        </p>
+        <p class="festival_season_img website_description">
+          Before embarking on any makeup, always ensure that your face is clean.
+          Need some assistance in absolute cleaning? Visit our range of face
+          wash <span>beauty products online</span> for your best pick. We have
+          made it our duty to carefully select the best products for you, so
+          that you don’t experience breaks and allergies after use. So now you
+          can be confident that your
+          <span>buy cosmetic online shopping</span> will be worth your time and
+          effort.
+        </p>
+        <p class="festival_season_img website_description">
+          Wondering then how you will make a choice among the spectrum
+          available? Most of our products are purely natural in ingredient, so
+          you can as well check for your favorite ingredient combination. If not
+          sure, we are still here for you. We can help narrow down your options,
+          together with you.
+        </p>
+        <p class="festival_season_img website_description">
+          <span>Apply a Moisturizer</span>
+        </p>
+        <div class="festival_season_img more_text">
+          <p class="website_description">
+            Next, you need a moisturizer in your
+            <span>makeup kit.</span> Moisturizers keep your face glowing
+            regardless of the mood of the day. Most essentially, moisturizers
+            will keep your skin hydrated from the outside, while your constant
+            hydration by taking fluids enhance the efforts.
+          </p>
+          <p class="website_description">
+            Our moisturizers range from matte, ponds, creams and gels, all to
+            ensure that your specific need is met. Just go through the list for
+            a better selection, which will aid you through your
+            <span>cosmetic online shopping.</span> With the best moisturizer, it
+            will also work as a primer. Hence, you don’t have to buy an extra
+            product, which saves you some cost.
+          </p>
+          <p class="website_description">
+            <span>Get Your Makeup Kit</span>
+          </p>
+          <p class="website_description">
+            Your general makeup will consist, of more than the moisturizer. Some
+            o the other major components include the foundation, which you use
+            on your whole face. Then there is the concealer, which you
+            concentrate on areas of the face you want to hide. There is the
+            brightener and highlighter, which you will highlight areas you want
+            conspicuous on your face. And don’t forget to look into our range of
+            toners for your best shot at a firmer face and neck.
+          </p>
+          <p class="website_description">
+            We have the most effective beauty products India has dreamt of to
+            replenish your kit, so don’t miss out! Enhance the Outlook of the
+            Eyes
+          </p>
+          <p class="website_description">
+            At this point, your eyebrows should be in the shape and size you
+            want them to be. Now you can brush them up to bring out a perfect
+            outlook. Apply eye pencil to cover any gaps within the eyebrows for
+            an ideal outlook.
+          </p>
+          <p class="website_description">
+            If the area surrounding your eyes has a different color shade,
+            probably more tanned or lighter in color in comparison to your
+            general face color, then pay attention to the area. Use concealers
+            to bring out the perfect shade you want for a uniform outlook.
+            Alternatively, you can use the highlighter to bring attention to
+            your eyes, which even adds to a seemingly large-eye size. If your
+            eyes are starting to show wrinkles, then our under-eye wrinkle
+            creams from our cosmetic online shop should come in handy.
+          </p>
+          <p class="website_description">
+            Want to finish up with a luminating cosmetic product for a
+            conspicuously radiant look? Go ahead and make your makeup experience
+            more appealing. Your Lips? For a natural beauty look, go for a
+            glossy lip gloss or a light lipstick. Or are you going out with the
+            girls, and thicker lips your way? Our range of matte lipstick
+            collection should work for you. Bottom Line
+          </p>
+          <p class="website_description">
+            Want to buy beauty products online to improve your makeup kit? We
+            are always there for you, ready to help. All you have to do is take
+            a step, look into our products and try us. Looking forward to seeing
+            you!
+          </p>
+        </div>
+        <p
+          class="
+            read-more-btn
+            festival_season_img
+            website_description website_read_description
+          "
+        >
+          Read More
+        </p>
+      </div>
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="footer_list_section">
+              <div class="footer-block">
+                <div class="footer-block-title">
+                  <h3>contact info</h3>
+                </div>
+                <ul class="links-contact">
+                  <li class="phone">(+91) 97990 30777</li>
+                  <li class="mail">
+                    <a href="#">support@beautybebo.com</a><br /><a href="#"
+                      >sales@beautybebo.com</a
+                    >
+                  </li>
+                  <li class="time">Open time: 10:00AM - 7:00PM</li>
+                </ul>
+              </div>
+              <div class="socials-wrap">
+                <ul>
+                  <li class="li-social facebook-social">
+                    <a title="Facebook" href="#" target="_blank"
+                      ><i class="fa fa-facebook icon-social"></i
+                    ></a>
+                  </li>
+                  <li class="li-social pinterest-social">
+                    <a title="Instagram" href="#" target="_blank"
+                      ><i class="fa fa-instagram icon-social"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer_list_section">
+              <div class="footer-block">
+                <div class="footer-block-title">
+                  <h3>Quick Links</h3>
+                </div>
+                <div class="footer-block-content">
+                  <ul class="links">
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li>
+                      <a href="#">Terms &amp; Conditions</a>
+                    </li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li>
+                      <a href="#">Return and Refund Policy</a>
+                    </li>
+                    <li><a href="#">Shipping Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer_list_section">
+              <div class="footer-block">
+                <div class="footer-block-title">
+                  <h3>Customer Info</h3>
+                </div>
+                <div class="footer-block-content">
+                  <ul class="links">
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">Track your Order</a></li>
+                    <li><a href="#">Order Returns</a></li>
+                    <li><a href="#">Wishlist</a></li>
+                    <li><a href="#">News &amp; Events</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer_list_section">
+              <div class="footer-block">
+                <div class="footer-block-title">
+                  <h3>Categories</h3>
+                </div>
+
+                <div class="footer-block-content categories">
+                  <ul class="links">
+                    <li><a href="#">Makeup</a></li>
+                    <li><a href="#">Skin</a></li>
+                    <li><a href="#">Hair</a></li>
+                    <li><a href="#">Personal Care</a></li>
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">Fragrance</a></li>
+                    <li><a href="#">Ayueveda</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="newsletter-footer">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="footer_payment_img">
+                <img
+                  src="https://www.beautybebo.com/pub/media/wysiwyg/payment.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="subscribe_news_footer">
+                <div class="block-subscribe-footer">
+                  <div class="title_block">
+                    <h3>Signup for Newsletter</h3>
+                    <!--<p></p>-->
+                  </div>
+                  <form class="form" id="newsletter-validate-detail-footer">
+                    <div class="input-box">
+                      <input
+                        name="email"
+                        type="email"
+                        id="newsletter-footer"
+                        placeholder="Signup for Newsletter"
+                      />
+                    </div>
+                    <div class="action-button">
+                      <button class="subscribe" title="Subscribe" type="submit">
+                        Subscribe
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bottom_tag_title">© 2020 All Rights Reserved.</div>
+    </div>
+  </body>
+</html>
+
+<script src="../JS/home.js"></script>
+
+<!-- <script src="../data/data.js"></script> -->

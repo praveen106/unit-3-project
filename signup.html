@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Customer Account Beauty Bebo</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/signup.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="header_top">
+        <img
+          class="header_img"
+          src="https://www.beautybebo.com/pub/media/bb-app.png"
+        />
+      </div>
+      <div>
+        <p class="header_covid">
+          Due to Covid outbreak, Your orders may get delayed.
+        </p>
+      </div>
+      <div class="header_middle">
+        <div class="header_middle_innerbox">
+          <div id="header_middle_innerbox_first">
+            <span
+              ><img
+                class="header_middle_img"
+                src="https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png"
+            /></span>
+          </div>
+          <div id="header_middle_innerbox_second">
+            <select id="category_list">
+              <option>All Categories</option>
+            </select>
+
+            <input
+              type="text"
+              placeholder=" Enter your search...."
+              id="searchbar"
+              class="search_focus"
+              value=""
+            />
+
+            <button
+              class="search-button"
+              id="search-btn"
+              type="submit"
+              title="Search"
+            >
+              <img
+                src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png"
+                class="search_icon"
+              />
+            </button>
+          </div>
+          <div id="header_middle_innerbox_third">
+            <div class="favourite">
+              <span class="material-icons-outlined"> favorite </span>
+            </div>
+            <div class="account">
+              <span class="material-icons-round"> person </span>
+            </div>
+            <div class="account_info">
+              <span class="hov"
+                ><span id="reg" onclick="menuToggle()"> My Account </span>
+                <div class="menu">
+                  <p><a href="sigin.html">Login</a></p>
+                  <hr />
+                  <p><a href="signup.html">Register</a></p>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="menu_bar">
+          <ul>
+            <li
+              class="active"
+              onmouseenter="navToggle()"
+              onmouseleave="navTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    ><a>MAKEUP</a>
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">FACE</li>
+                          <li>BB Cream</li>
+                          <li>Blush</li>
+                          <li>Bronzer</li>
+                          <li>CC Cream</li>
+                          <li>Contour</li>
+                          <li>Concealer</li>
+                          <li>Compact & Powder</li>
+                          <li>Face Primer</li>
+                          <li>Foundation</li>
+                          <li>Highlighters</li>
+                          <li>Loose Powder</li>
+                          <li>Makeup Kits</li>
+                          <li>Makeup Remover</li>
+                          <li>Setting Spray</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">EYE</li>
+                          <li>Contact Lenses</li>
+                          <li>Eye Kit</li>
+                          <li>Eyeliner</li>
+                          <li>Eye Shadow</li>
+                          <li>Eye Primer</li>
+                          <li>Eye-Palettes</li>
+                          <li>Eye Makeup Remover</li>
+                          <li>Eye Brow Enhancers</li>
+                          <li>False Eyelashes</li>
+                          <li>Kajal</li>
+                          <li>Mascara</li>
+                          <li>Under Eye Concealer</li>
+                          <li></li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">LIPS</li>
+                          <li>Lipstick</li>
+                          <li>Liquid Lipstick</li>
+                          <li>Lip Liner</li>
+                          <li>Lip Gloss</li>
+                          <li>Lip Balm</li>
+                          <li>Lip Crayon</li>
+                          <li>Lip Stain</li>
+                          <li>Lip Plumper</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">NAILS</li>
+                          <li>Manicure & Pedicure Kits</li>
+                          <li>Nail Polish</li>
+                          <li>Nail Care</li>
+                          <li>Nail Polish Sets</li>
+                          <li>Nail Art Kits</li>
+                          <li>Nail Polish Remover</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">TOOLS BRUSHES</li>
+                          <li>Blush Brush</li>
+                          <li>Eyelash Curlers</li>
+                          <li>Eye Brush</li>
+                          <li>Face Brush</li>
+                          <li>Lip Brush</li>
+                          <li>Makeup Pouches</li>
+                          <li>Mirrors</li>
+                          <li>Sponges & Applicators</li>
+                          <li>Sharpeners</li>
+                          <li>Tweezers</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box"></div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navSkinToggle()"
+              onmouseleave="navSkinTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >SKIN
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_skin">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">EYE CARE</li>
+                          <li>Dark Circles</li>
+                          <li>Eye Contour Care</li>
+                          <li>Eye Cream</li>
+                          <li>Eye Masks</li>
+                          <li>Eye Serums</li>
+                          <li>Puffiness</li>
+                          <li>Under Eye Creams</li>
+                          <li>Under Eye Wrinkles</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">FACE CARE</li>
+                          <li>Anti- Ageing Creams</li>
+                          <li>Bleach Creams</li>
+                          <li>Brightening Cream</li>
+                          <li>Face Wash</li>
+                          <li>Facial Wipes</li>
+                          <li>Face Oil</li>
+                          <li>Face Cleansers</li>
+                          <li>Facial Kits</li>
+                          <li>Face Tools</li>
+                          <li>Moisturizer</li>
+                          <li>Mask & Peels</li>
+                          <li>Serum</li>
+                          <li>Toner & Astringents</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">BODY CARE</li>
+                          <li>All Cream</li>
+                          <li>Body Moisturizers</li>
+                          <li>Body Toners</li>
+                          <li>Body Sun Care</li>
+                          <li>Brightening Lotion</li>
+                          <li>Dark Circles & Wrinkles</li>
+                          <li>Day Cream</li>
+                          <li>Foot Cream</li>
+                          <li>Hair Remover Cream</li>
+                          <li>Hand Creams</li>
+                          <li>Hands & Feet</li>
+                          <li>Kits & Combos</li>
+                          <li>Night Cream</li>
+                          <li>Neck Creams</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/skin_2.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navHairToggle()"
+              onmouseleave="navHairTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >HAIR
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_hair">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR CARE</li>
+                          <li>Color Protection</li>
+                          <li>Dandruff</li>
+                          <li>Dry Shampoo</li>
+                          <li>Gels & Waxes</li>
+                          <li>Hair Spray</li>
+                          <li>Hair Color/ Dye</li>
+                          <li>Hair Creams & Masks</li>
+                          <li>Hair Styling</li>
+                          <li>Hairfall & Thinning</li>
+                          <li>Straighteners</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR LOSS</li>
+                          <li>Conditioner</li>
+                          <li>Hair Oil</li>
+                          <li>Hair Serum</li>
+                          <li>Hair Growth Solutions</li>
+                          <li>Shampoo</li>
+                        </ul>
+                      </div>
+
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/hair_1.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navPersonalCareToggle()"
+              onmouseleave="navPersonalCareTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >PERSONAL CARE
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_personal_care">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">EYE CARE</li>
+                          <li>Dark Circles</li>
+                          <li>Eye Contour Care</li>
+                          <li>Eye Cream</li>
+                          <li>Eye Masks</li>
+                          <li>Eye Serums</li>
+                          <li>Puffiness</li>
+                          <li>Under Eye Creams</li>
+                          <li>Under Eye Wrinkles</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">FACE CARE</li>
+                          <li>Anti- Ageing Creams</li>
+                          <li>Bleach Creams</li>
+                          <li>Brightening Cream</li>
+                          <li>Face Wash</li>
+                          <li>Facial Wipes</li>
+                          <li>Face Oil</li>
+                          <li>Face Cleansers</li>
+                          <li>Facial Kits</li>
+                          <li>Face Tools</li>
+                          <li>Moisturizer</li>
+                          <li>Mask & Peels</li>
+                          <li>Serum</li>
+                          <li>Toner & Astringents</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">BODY CARE</li>
+                          <li>All Cream</li>
+                          <li>Body Moisturizers</li>
+                          <li>Body Toners</li>
+                          <li>Body Sun Care</li>
+                          <li>Brightening Lotion</li>
+                          <li>Dark Circles & Wrinkles</li>
+                          <li>Day Cream</li>
+                          <li>Foot Cream</li>
+                          <li>Hair Remover Cream</li>
+                          <li>Hand Creams</li>
+                          <li>Hands & Feet</li>
+                          <li>Kits & Combos</li>
+                          <li>Night Cream</li>
+                          <li>Neck Creams</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/personal_care_.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li onmouseenter="navMomToggle()" onmouseleave="navMomTogglenot()">
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >MOM & BABY CARE
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_mom">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR CARE</li>
+                          <li>Color Protection</li>
+                          <li>Dandruff</li>
+                          <li>Dry Shampoo</li>
+                          <li>Gels & Waxes</li>
+                          <li>Hair Spray</li>
+                          <li>Hair Color/ Dye</li>
+                          <li>Hair Creams & Masks</li>
+                          <li>Hair Styling</li>
+                          <li>Hairfall & Thinning</li>
+                          <li>Straighteners</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR LOSS</li>
+                          <li>Conditioner</li>
+                          <li>Hair Oil</li>
+                          <li>Hair Serum</li>
+                          <li>Hair Growth Solutions</li>
+                          <li>Shampoo</li>
+                        </ul>
+                      </div>
+
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/mom_and_baby_care_4.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li
+              onmouseenter="navFragranceToggle()"
+              onmouseleave="navFragranceTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >FRAGRANCE
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_fragrance">
+                  <p>Perfumes</p>
+                  <p>Deodorants roll ons</p>
+                  <p>Body Mist/Spray</p>
+                </div>
+              </span>
+            </li>
+
+            <li
+              onmouseenter="navAyurvedaToggle()"
+              onmouseleave="navAyuevedaTogglenot()"
+            >
+              <span class="hove"
+                ><span id="show_hover_affect">
+                  <span
+                    >AYURVEDA
+                    <span class="material-icons-outlined expand">
+                      expand_more
+                    </span></span
+                  >
+                </span>
+                <div class="navigation_bar_Ayueveda">
+                  <div class="navigation_bar_container">
+                    <div class="navigation_flex_box">
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR CARE</li>
+                          <li>Color Protection</li>
+                          <li>Dandruff</li>
+                          <li>Dry Shampoo</li>
+                          <li>Gels & Waxes</li>
+                          <li>Hair Spray</li>
+                          <li>Hair Color/ Dye</li>
+                          <li>Hair Creams & Masks</li>
+                          <li>Hair Styling</li>
+                          <li>Hairfall & Thinning</li>
+                          <li>Straighteners</li>
+                        </ul>
+                      </div>
+                      <div class="flex_child_box">
+                        <ul>
+                          <li class="nav_bold">HAIR LOSS</li>
+                          <li>Conditioner</li>
+                          <li>Hair Oil</li>
+                          <li>Hair Serum</li>
+                          <li>Hair Growth Solutions</li>
+                          <li>Shampoo</li>
+                        </ul>
+                      </div>
+
+                      <div class="flex_child_box">
+                        <img
+                          src="https://www.beautybebo.com/pub/media/mega-menu/Ayurveda_2.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </li>
+            <li>
+              BRANDS<span class="material-icons-outlined expand">
+                expand_more
+              </span>
+            </li>
+          </ul>
+        </div>
+        <div class="my_cart">
+          <ul class="active">
+            <li>
+              <span class="material-icons-outlined expand cart_expand">
+                shopping_bag </span
+              >MY CART
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="signup_main_container">
+      <p class="para_sign">CREATE NEW CUSTOMER ACCOUNT</p>
+      <div class="signup_outer_box">
+        <div class="signup_inner_box">
+          <div class="legend">
+            <h1>PERSONAL INFORMATION</h1>
+            <hr />
+          </div>
+          <form id="form">
+            <div class="users_name">
+              <div>
+                <h1>First Name<span>*</span></h1>
+                <input
+                  id="user_first_name"
+                  type="text"
+                  value=""
+                  name="First-Name"
+                />
+              </div>
+              <div>
+                <h1>Last Name<span>*</span></h1>
+                <input
+                  id="user_last_name"
+                  type="text"
+                  value=""
+                  name="Last-Name"
+                />
+              </div>
+            </div>
+            <div class="validate">
+              <h1>Email<span>*</span></h1>
+              <input id="user_email" type="email" value="" name="Email" />
+            </div>
+            <div class="validate">
+              <h1>Phone<span>*</span></h1>
+              <input id="user_phone" type="number" value="" name="Number" />
+              <p id="show_error"></p>
+            </div>
+            <div class="validate">
+              <h1>Password<span>*</span></h1>
+              <input
+                id="user_password"
+                type="password"
+                value=""
+                name="Password"
+              />
+            </div>
+            <div class="validate">
+              <h1>Confirm Password<span>*</span></h1>
+              <input
+                id="user_confirm_password"
+                type="password"
+                value=""
+                name="Password"
+              />
+            </div>
+            <div class="validate">
+              <button id="create_account_btn" onclick="signup(event)">
+                CREATE AN ACCOUNT
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="row">
+          <div class="footer_list_section">
+            <div class="footer-block">
+              <div class="footer-block-title">
+                <h3>contact info</h3>
+              </div>
+              <ul class="links-contact">
+                <li class="phone">(+91) 97990 30777</li>
+                <li class="mail">
+                  <a href="#">support@beautybebo.com</a><br /><a href="#"
+                    >sales@beautybebo.com</a
+                  >
+                </li>
+                <li class="time">Open time: 10:00AM - 7:00PM</li>
+              </ul>
+            </div>
+            <div class="socials-wrap">
+              <ul>
+                <li class="li-social facebook-social">
+                  <a title="Facebook" href="#" target="_blank"
+                    ><i class="fa fa-facebook icon-social"></i
+                  ></a>
+                </li>
+                <li class="li-social pinterest-social">
+                  <a title="Instagram" href="#" target="_blank"
+                    ><i class="fa fa-instagram icon-social"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_list_section">
+            <div class="footer-block">
+              <div class="footer-block-title">
+                <h3>Quick Links</h3>
+              </div>
+              <div class="footer-block-content">
+                <ul class="links">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li>
+                    <a href="#">Terms &amp; Conditions</a>
+                  </li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li>
+                    <a href="#">Return and Refund Policy</a>
+                  </li>
+                  <li><a href="#">Shipping Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer_list_section">
+            <div class="footer-block">
+              <div class="footer-block-title">
+                <h3>Customer Info</h3>
+              </div>
+              <div class="footer-block-content">
+                <ul class="links">
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Track your Order</a></li>
+                  <li><a href="#">Order Returns</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">News &amp; Events</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer_list_section">
+            <div class="footer-block">
+              <div class="footer-block-title">
+                <h3>Categories</h3>
+              </div>
+
+              <div class="footer-block-content categories">
+                <ul class="links">
+                  <li><a href="#">Makeup</a></li>
+                  <li><a href="#">Skin</a></li>
+                  <li><a href="#">Hair</a></li>
+                  <li><a href="#">Personal Care</a></li>
+                  <li><a href="#">Baby Care</a></li>
+                  <li><a href="#">Fragrance</a></li>
+                  <li><a href="#">Ayueveda</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="newsletter-footer">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer_payment_img">
+              <img
+                src="https://www.beautybebo.com/pub/media/wysiwyg/payment.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="subscribe_news_footer">
+              <div class="block-subscribe-footer">
+                <div class="title_block">
+                  <h3>Signup for Newsletter</h3>
+                  <!--<p></p>-->
+                </div>
+                <form class="form" id="newsletter-validate-detail-footer">
+                  <div class="input-box">
+                    <input
+                      name="email"
+                      type="email"
+                      id="newsletter-footer"
+                      placeholder="Signup for Newsletter"
+                    />
+                  </div>
+                  <div class="action-button">
+                    <button class="subscribe" title="Subscribe" type="submit">
+                      Subscribe
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom_tag_title">© 2020 All Rights Reserved.</div>
+  </body>
+</html>
+<script src="../JS/home.js"></script>
+<script src="../JS/signup.js"></script>

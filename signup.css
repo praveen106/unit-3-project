@@ -1,0 +1,110 @@
+/* div {
+  border: 1px solid #aaa;
+} */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .para_sign {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .signup_outer_box {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  .signup_inner_box {
+    width: 60%;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #eeeeee;
+    padding: 40px;
+    background-color: #f5f5f5;
+  }
+  .legend > h1 {
+    text-align: left;
+    font-size: 19px;
+    font-weight: normal;
+    padding: 7px 0;
+    padding-top: 1px;
+  }
+  .legend > hr {
+    width: 99%;
+    color: #aaa;
+    background-color: #aaa;
+    border: 0.1px solid #eeeeee;
+    margin: auto;
+  }
+  #form {
+    margin-top: 2%;
+  }
+  #form > div {
+    margin-bottom: 1%;
+  }
+  .users_name {
+    display: flex;
+    margin: auto;
+  }
+  .users_name > div {
+    flex-basis: 48%;
+    margin: auto;
+    margin-bottom: 7px;
+  }
+  .users_name > div:nth-child(1) {
+    margin-left: 0;
+    margin-right: 4%;
+  }
+  .users_name > div > h1 {
+    font-size: 17px;
+    padding: 7px 0;
+    font-weight: 500;
+    color: #666666;
+  }
+  .users_name > div > h1 > span {
+    color: red;
+  }
+  .users_name > div > input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid #aaa;
+  }
+  .users_name > div > input:focus {
+    outline: none;
+  }
+  .validate > h1 {
+    font-size: 17px;
+    padding: 7px 0;
+    font-weight: 500;
+    color: #666666;
+  }
+  .validate > h1 > span {
+    color: red;
+  }
+  .validate > input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: 1px solid #aaa;
+  }
+  .validate > input:focus {
+    outline: none;
+  }
+  .validate > button {
+    padding: 8px 15px;
+    margin-top: 15px;
+    color: #f5f5f5;
+    background-color: #212121;
+    border-radius: 2px;
+    outline: none;
+  }
+  .validate > button:hover {
+    background-color: #dd0285;
+    border: none;
+  }
